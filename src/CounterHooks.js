@@ -11,4 +11,4 @@ export default function CounterHooks({ initialCount }) {
             <button style={style} onClick={() => setCount(prevCount => prevCount + 1 )}>+</button>
         </div>
     )
-}
+} 
